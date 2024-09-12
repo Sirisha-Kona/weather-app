@@ -6,7 +6,7 @@ let form = document.getElementById("parent-form")
         event.preventDefault() // to hold the submission
         cityTemp.innerHTML = ""
         // console.log("City name is",cityName.value)
-        const url = `https://api.openweathermap.org/data/2.5/weather?q= ${cityName.value}&appId=${apiKey}&units=metric`
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName.value}&appId=${apiKey}&units=metric`
         fetch(url)
             .then((res) => {
                 console.log(res)
