@@ -25,6 +25,16 @@ body {
     border-radius: 15px;
     margin-top: 3%;
 }
+/* .{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 30px;
+} */
 .city{
-    
+    padding: 20px;
+    background-color: white;
+    max-width: 20%;
+    border-radius: 15px;
+    margin-left: 35%;
+    padding-left: 10%;
 }
